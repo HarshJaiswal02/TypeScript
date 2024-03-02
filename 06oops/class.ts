@@ -29,6 +29,30 @@ console.log(user.name);
 
 // Getter and Setter functions
 
+class Teachers {
+  // _course: string;
+  // _courseId: number;  //After commenting and adding public or private in
+  constructor(private _course: string, public _courseId: number) {}
 
+  get course(): string {
+    return `Course:${this._course}`;
+  }
+
+  set course(value) {
+    this._course = value;
+  }
+
+  get Id(): number {
+    return this._courseId;
+  }
+
+  set Id(value) {
+    this._courseId = value;
+  }
+}
+let subject = new Teachers("DBMS", 304);
+console.log(subject);
+console.log(subject.course);
+console.log(subject.Id);
 
 export {};
