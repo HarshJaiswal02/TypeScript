@@ -27,7 +27,8 @@ console.log(user.name);
 
 //protected => access within a class or class that inherits otherwise can't access
 
-// Getters and Setters
+// Getter and Setter functions
+
 
 
 export {};

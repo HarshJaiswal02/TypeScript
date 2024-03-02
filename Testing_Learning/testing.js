@@ -1,24 +1,24 @@
-const User = {
-  name: "harsh",
-  age: 21,
-  isMale: true,
-  Married: undefined,
-  nested: function () {
-    this.greeting();
-  },
-  greeting: function () {
-    console.log(this.name);
-  },
-};
+// const User = {
+//   name: "harsh",
+//   age: 21,
+//   isMale: true,
+//   Married: undefined,
+//   nested: function () {
+//     this.greeting();
+//   },
+//   greeting: function () {
+//     console.log(this.name);
+//   },
+// };
 
-// destructuring >>
+// // destructuring >>
 
-// const { name: Name, age: Age, isMale: Gender, Married } = User;
-User.abcd = function abcd () {
-  console.log("insertingFunctionToObjectExternally");
-};
-User.abcd();
-console.log(User);
+// // const { name: Name, age: Age, isMale: Gender, Married } = User;
+// User.abcd = function abcd () {
+//   console.log("insertingFunctionToObjectExternally");
+// };
+// User.abcd();
+// console.log(User);
 
 
 // class Employee {
