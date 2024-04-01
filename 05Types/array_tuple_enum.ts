@@ -38,3 +38,5 @@ console.log(myTuples);
 // all elements are string ... we by pass the number restriction
 // 😵
 export {};
+
+// Todo: "Enums"

@@ -36,3 +36,6 @@ console.log(Object.keys(user));
 console.log(user.operatingSys);
 console.log(typeof user.takePhoto());
 export {};
+
+
+// Todo "Abstract classes"
